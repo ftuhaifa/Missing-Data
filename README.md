@@ -77,7 +77,8 @@ After running the scripts, you will see plots like:
 ![Missing Data Correlation](missing_data_correlation.png)
 
 ### ** UpSet Plot**
-![UpSet Plot](upset_plot.png)
+![UpSet Plot] ![image](https://github.com/user-attachments/assets/397fb02b-24c2-474d-a3ad-8abc41ec26e0)
+
 
 
 ## **Requirements For the heatmap**
