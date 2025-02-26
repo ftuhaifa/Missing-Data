@@ -26,7 +26,24 @@ pip install pandas numpy matplotlib seaborn missingno upsetplot scikit-learn pya
 python LittlTestMCAR.py
 ```
 
-### **2️⃣ missing_data_correlation.py**
+
+## **2️⃣ Proportions_Of_Missing_Values_Per_Variable.py**
+#### **Description:**
+- 📊 **Calculates missing value statistics** (number, proportion, and total observations per variable).
+- 📄 **Displays a formatted table** showing missing data statistics in a **structured and readable** format.
+- 🎨 **Visualizes missing data proportions** using:
+  - A **styled table** in `Matplotlib`, formatted like a report.
+  - A **horizontal bar chart** to show missing value proportions for each variable.
+
+#### **Requirements:**
+✅ `pandas` ✅ `numpy` ✅ `matplotlib` ✅ `seaborn` ✅ `sklearn`
+
+#### **Run the script:**
+```bash
+python Proportions_Of_Missing_Values_Per_Variable.py
+```
+
+### **3️⃣ missing_data_correlation.py**
 #### **Description:**
 - 📊 **Creates synthetic data** 
 - 📏 **Calculates the proportion of missing values** for each feature.
@@ -39,7 +56,7 @@ python LittlTestMCAR.py
 ```bash
 python missing_data_correlation.py
 ```
-### **3️⃣ missing_data_heatmap.py**
+### **4️⃣ missing_data_heatmap.py**
 #### **Description:**
 - 📊 **Generates** a dataset with missing values.
 - 🎨 Uses `seaborn` to create a **heatmap** showing missing values distribution.
@@ -53,7 +70,7 @@ python missing_data_correlation.py
 python missing_data_heatmap.py
 ```
 
-### **4️⃣ UpSetVisualization.py**
+### **5️⃣ UpSetVisualization.py**
 #### **Description:**
 - 📊 **Creates an UpSet plot** to visualize the **co-occurrence** of missing values.
 - 🔄 **Converts missing values** into a **boolean matrix** for better pattern detection.
@@ -87,6 +104,25 @@ After running the **Little's MCAR test**, the obtained **p-value** is:
 
 
 
+<h1>Proportions Of Missing Values Per Variable</h1>
+
+```bash
+Proportions of Missingness Per Variable in a Table
+Variable  nmiss  n   propmiss
+  Ozone  28     100 0.28     
+   Wind  15     100 0.15     
+Solar.R   9     100 0.09     
+   Temp   8     100 0.08     
+  Month   0     100 0.00     
+    Day   0     100 0.00 
+```
+
+![image](https://github.com/user-attachments/assets/e52ad0ad-a754-4e96-8b6b-5082821aa642)
+
+
+
+
+![image](https://github.com/user-attachments/assets/5fe1ed2b-d54e-4234-9fd6-3d7509b5cce0)
 
 
 <h1>Missing Data Heatmap</h1>
