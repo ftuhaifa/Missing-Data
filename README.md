@@ -7,6 +7,7 @@ This repository contains Python scripts for analyzing and visualizing **missing 
 Before running any script, install the required dependencies using:
 ```bash
 pip install pandas numpy matplotlib seaborn missingno upsetplot scikit-learn pyampute
+```
 
 
 ## **📂 Files Overview**
