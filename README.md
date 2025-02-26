@@ -67,17 +67,52 @@ python missing_data_heatmap.py
 python UpSetVisualization.py
 ```
 
-## ** Visualizations**
-After running the scripts, you will see plots like:
+## ** Visualizations and Results**
+After running the scripts, you will see results like:
+
+## ** MCAR Test Result**
+After running the **Little's MCAR test**, the obtained **p-value** is:
+
+```bash
+0.04679423596759624
+### ❌ Reject null hypothesis: Missingness is NOT MCAR (MAR or MNAR).
+```
+
+![image](https://github.com/user-attachments/assets/aa0c1cf3-d708-40ae-a573-c5ce44fe203f)
+
+
+![image](https://github.com/user-attachments/assets/b9ec676d-905d-4db4-bef8-576fb1fc218b)
+
 
 ### ** Missing Data Heatmap**
-![Missing Data Heatmap](missing_data_heatmap.png)
+
+![image](https://github.com/user-attachments/assets/0cf7a6dd-49ca-4a3a-bb6b-91560c1510e3)
+
 
 ### ** Missing Data Correlation**
-![Missing Data Correlation](missing_data_correlation.png)
+
+###
+Proportion of Missing Values:
+
+Ozone      0.28
+
+Solar.R    0.09
+
+Wind       0.15
+
+Temp       0.08
+
+Month      0.00
+
+Day        0.00
+
+dtype: float64
+
+![image](https://github.com/user-attachments/assets/422a2ca1-30a9-47e3-b081-d93855448d6f)
+
 
 ### ** UpSet Plot**
-![UpSet Plot] ![image](https://github.com/user-attachments/assets/397fb02b-24c2-474d-a3ad-8abc41ec26e0)
+ ![image](https://github.com/user-attachments/assets/397fb02b-24c2-474d-a3ad-8abc41ec26e0)
 
 
 
