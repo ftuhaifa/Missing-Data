@@ -8,7 +8,7 @@ This repository contains a Python script that **visualizes missing data**. The h
 - 🎨 **Visualizes missing data** using `seaborn`'s **heatmap**, where missing values are represented in black.
 - 🛠 **Easily customizable** for other datasets by modifying column names and probabilities.
 
-## **Requirements For the geatmap**
+## **Requirements For the heatmap**
 Install the required dependencies before running the script:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
