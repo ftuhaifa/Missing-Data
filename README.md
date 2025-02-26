@@ -28,7 +28,7 @@ python LittlTestMCAR.py
 
 ### **2️⃣ missing_data_correlation.py**
 #### **Description:**
-- 📊 ** creates synthetic data **.
+- 📊 **Creates synthetic data** 
 - 📏 **Calculates the proportion of missing values** for each feature.
 - 🔥 **Visualizes missing values correlation** using `missingno.heatmap()`.
 
@@ -67,10 +67,10 @@ python missing_data_heatmap.py
 python UpSetVisualization.py
 ```
 
-## ** Visualizations and Results**
+## **Visualizations and Results**
 After running the scripts, you will see results like:
 
-## ** MCAR Test Result**
+## **MCAR Test Result**
 After running the **Little's MCAR test**, the obtained **p-value** is:
 
 ```bash
