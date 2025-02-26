@@ -87,15 +87,17 @@ After running the **Little's MCAR test**, the obtained **p-value** is:
 
 
 
-### ** Missing Data Heatmap**
+## ** Missing Data Heatmap**
 
-<h5>Missing Data Heatmap</h5>
+<h1>Missing Data Heatmap</h1>
 
 ![image](https://github.com/user-attachments/assets/0cf7a6dd-49ca-4a3a-bb6b-91560c1510e3)
 
 
 
-### ** Missing Data Correlation**
+
+
+## ** Missing Data Correlation**
 
 ###
 Proportion of Missing Values:
@@ -117,7 +119,9 @@ dtype: float64
 ![image](https://github.com/user-attachments/assets/422a2ca1-30a9-47e3-b081-d93855448d6f)
 
 
-### ** UpSet Plot**
+
+
+## ** UpSet Plot**
  ![image](https://github.com/user-attachments/assets/397fb02b-24c2-474d-a3ad-8abc41ec26e0)
 
 
