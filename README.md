@@ -28,7 +28,7 @@ python LittlTestMCAR.py
 
 ### **2️⃣ missing_data_correlation.py**
 #### **Description:**
-- 📊 **Loads the air quality dataset** (or creates synthetic data if unavailable).
+- 📊 ** creates synthetic data **.
 - 📏 **Calculates the proportion of missing values** for each feature.
 - 🔥 **Visualizes missing values correlation** using `missingno.heatmap()`.
 
@@ -41,7 +41,7 @@ python missing_data_correlation.py
 ```
 ### **3️⃣ missing_data_heatmap.py**
 #### **Description:**
-- 📊 **Loads or generates** a dataset with missing values.
+- 📊 **Generates** a dataset with missing values.
 - 🎨 Uses `seaborn` to create a **heatmap** showing missing values distribution.
 - 🔍 Helps **identify missing data patterns** visually.
 
