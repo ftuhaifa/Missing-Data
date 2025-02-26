@@ -89,7 +89,7 @@ After running the **Little's MCAR test**, the obtained **p-value** is:
 
 ### ** Missing Data Heatmap**
 
-<h3>Missing Data Heatmap</h3>
+<h5>Missing Data Heatmap</h5>
 
 ![image](https://github.com/user-attachments/assets/0cf7a6dd-49ca-4a3a-bb6b-91560c1510e3)
 
