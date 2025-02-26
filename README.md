@@ -77,6 +77,7 @@ After running the **Little's MCAR test**, the obtained **p-value** is:
 0.04679423596759624
 ### ❌ Reject null hypothesis: Missingness is NOT MCAR (MAR or MNAR).
 ```
+### (MAR or MNAR) Means it could be Missing at random or missing not at random.
 
 ![image](https://github.com/user-attachments/assets/aa0c1cf3-d708-40ae-a573-c5ce44fe203f)
 
@@ -84,9 +85,14 @@ After running the **Little's MCAR test**, the obtained **p-value** is:
 ![image](https://github.com/user-attachments/assets/b9ec676d-905d-4db4-bef8-576fb1fc218b)
 
 
+
+
 ### ** Missing Data Heatmap**
 
+<h3>Missing Data Heatmap</h3>
+
 ![image](https://github.com/user-attachments/assets/0cf7a6dd-49ca-4a3a-bb6b-91560c1510e3)
+
 
 
 ### ** Missing Data Correlation**
