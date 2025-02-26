@@ -24,7 +24,7 @@ pip install pandas numpy matplotlib seaborn missingno upsetplot scikit-learn pya
 #### **Run the script:**
 ```bash
 python LittlTestMCAR.py
-
+```
 
 ### **2️⃣ missing_data_correlation.py**
 #### **Description:**
@@ -38,7 +38,7 @@ python LittlTestMCAR.py
 #### **Run the script:**
 ```bash
 python missing_data_correlation.py
-
+```
 ### **3️⃣ missing_data_heatmap.py**
 #### **Description:**
 - 📊 **Loads or generates** a dataset with missing values.
@@ -51,7 +51,7 @@ python missing_data_correlation.py
 #### **Run the script:**
 ```bash
 python missing_data_heatmap.py
-
+```
 
 ### **4️⃣ UpSetVisualization.py**
 #### **Description:**
@@ -65,7 +65,7 @@ python missing_data_heatmap.py
 #### **Run the script:**
 ```bash
 python UpSetVisualization.py
-
+```
 
 ## ** Visualizations**
 After running the scripts, you will see plots like:
